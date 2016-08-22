@@ -1,36 +1,29 @@
-# Java8 Code Kata
-[![Build Status](https://travis-ci.org/konohiroaki/java8-code-kata.svg?branch=master)](https://travis-ci.org/konohiroaki/java8-code-kata)
+Java8 Code Kata
+Build Status
 
 ☝ It's failing because tests are not solved yet! :blush:
 
-## What is Code Kata?
+What is Code Kata?
 
-According to [www.codekatas.org](http://www.codekatas.org/)
-> Code Kata is a term coined by Dave Thomas, co-author of the book The Pragmatic Programmer, in a bow to the Japanese concept of kata in the martial arts. A code kata is an exercise in programming which helps a programmer hone their skills through practice and repetition.
+According to www.codekatas.org
 
+Code Kata is a term coined by Dave Thomas, co-author of the book The Pragmatic Programmer, in a bow to the Japanese concept of kata in the martial arts. A code kata is an exercise in programming which helps a programmer hone their skills through practice and repetition.
+Also refer codekata.com
 
-Also refer [codekata.com](http://codekata.com/)
+What is Java8 Code Kata?
 
-## What is Java8 Code Kata?
+The Java8 Code Kata is created to walk-through java8 new API functions. I hope this helps you learn Java8 and get used to it. Repeating exercises will definitely upgrade your skills.
 
-The _Java8 Code Kata_ is created to walk-through java8 new API functions. I hope this helps you learn Java8 and get used to it. Repeating exercises will definitely upgrade your skills.
+Usage
 
-## Usage
-* Resolve dependencies.
-
-```
+Resolve dependencies.
 $ pwd
 /path/to/java8-code-kata
 
 $ ./mvnw dependency:resolve
 -> will download the dependent jar files in your .m2 directory.
-```
-
-* Edit the unit tests to pass them by following its description.
-
+Edit the unit tests to pass them by following its description.
 Test sample.
-
-```java
 
 @Test
 @Necessity(true)
@@ -42,14 +35,9 @@ public void simpleAddition() {
 
     assertThat(added, is(3));
 }
-
-```
-
 You need to edit the program under the comment.
 
 Solution sample.
-
-```java
 
 @Test
 @Necessity(true)
@@ -61,85 +49,66 @@ public void simpleAddition() {
 
     assertThat(added, is(3));
 }
+Most tests are annotated with @Necessity(true) which means the test only requires basic knowledge.
 
-```
+Tests annotated with @Necessity(false) are more difficult and need to think to solve them.
 
-Most tests are annotated with `@Necessity(true)` which means the test only requires basic knowledge.
-
-Tests annotated with `@Necessity(false)` are more difficult and need to think to solve them.
-
-## Where are the answers?
+Where are the answers?
 
 Check the 'solution' branch, but please try to solve by yourself at first.
 
-## Modules
+Modules
 
-### collection-interfaces
+collection-interfaces
 
-+ Exercise1Test.java
+Exercise1Test.java
+Iterable#forEach, Collection#removeIf, List#replaceAll, List#sort, Collection#stream and Collection#parallelStream
 
-`Iterable#forEach`, `Collection#removeIf`, `List#replaceAll`, `List#sort`, `Collection#stream` and `Collection#parallelStream`
+Exercise2Test.java
+Map#getOrDefault, Map#putIfAbsent, Map#merge and Map#computeIfPresent
 
-+ Exercise2Test.java
+stream-api
 
-`Map#getOrDefault`, `Map#putIfAbsent`, `Map#merge` and `Map#computeIfPresent`
+Exercise1Test.java
+Stream#filter and Stream#map
 
-### stream-api
+Exercise2Test.java
+Stream#sorted, Stream#distinct, Stream#limit and Stream#flatMap
 
-+ Exercise1Test.java
+Exercise3Test.java
+Stream#count, Stream#max and Stream#min
 
-`Stream#filter` and `Stream#map`
+Exercise4Test.java
+Stream#findFirst, Stream#allMatch, Stream#anyMatch and Stream#noneMatch
 
-+ Exercise2Test.java
+Exercise5Test.java
+Stream#collect and Collectors
 
-`Stream#sorted`, `Stream#distinct`, `Stream#limit` and `Stream#flatMap`
+Exercise6Test.java
+Stream#of and Stream#iterate
 
-+ Exercise3Test.java
+Exercise7Test.java
+IntStream, LongStream and DoubleStream
 
-`Stream#count`, `Stream#max` and `Stream#min`
-
-+ Exercise4Test.java
-
-`Stream#findFirst`, `Stream#allMatch`, `Stream#anyMatch` and `Stream#noneMatch`
-
-+ Exercise5Test.java
-
-`Stream#collect` and `Collectors`
-
-+ Exercise6Test.java
-
-`Stream#of` and `Stream#iterate`
-
-+ Exercise7Test.java
-
-`IntStream`, `LongStream` and `DoubleStream`
-
-+ Exercise8Test.java
-
+Exercise8Test.java
 Advanced problems
 
-+ Exercise9Test.java
+Exercise9Test.java
+Collector
 
-`Collector`
+date-and-time-api
 
-### date-and-time-api
+Exercise1Test.java
+LocalDate#of, LocalDate#parse, LocalDate#with, LocalDate#plus, LocalDate#minus, LocalDate#isAfter, LocalDate#isBefore and LocalDate#until
 
-+ Exercise1Test.java
+Exercise2Test.java
+LocalTime#of, LocalTime#parse, LocalTime#with, LocalTime#plus, LocalTime#minus, LocalTime#isAfter, LocalTime#isBefore and LocalTime#truncatedTo
 
-`LocalDate#of`, `LocalDate#parse`, `LocalDate#with`, `LocalDate#plus`, `LocalDate#minus`, `LocalDate#isAfter`, `LocalDate#isBefore` and `LocalDate#until`
+Exercise3Test.java
+LocalDateTime#of, LocalDateTime#parse, LocalDateTime#format, LocalDateTime#toLocalDate, LocalDateTime#toLocalTime, LocalDate#atTime and LocalTime#atDate
 
-+ Exercise2Test.java
+Exercise4Test.java
+ZonedDateTime#of, ZonedDateTime#parse, ZonedDateTime#format, LocalDateTime#atZone, ZonedDateTime#withZoneSameInstant and ZonedDateTime#withZoneSameLocal
 
-`LocalTime#of`, `LocalTime#parse`, `LocalTime#with`, `LocalTime#plus`, `LocalTime#minus`, `LocalTime#isAfter`, `LocalTime#isBefore` and `LocalTime#truncatedTo`
-
-+ Exercise3Test.java
-
-`LocalDateTime#of`, `LocalDateTime#parse`, `LocalDateTime#format`, `LocalDateTime#toLocalDate`, `LocalDateTime#toLocalTime`, `LocalDate#atTime` and `LocalTime#atDate`
-
-+ Exercise4Test.java
-
-`ZonedDateTime#of`, `ZonedDateTime#parse`, `ZonedDateTime#format`, `LocalDateTime#atZone`, `ZonedDateTime#withZoneSameInstant` and `ZonedDateTime#withZoneSameLocal`
-
-+ Exercise5Test.java
-
-`LocalDateTime` to `java.sql.Timestamp`, `LocalDate` to `java.sql.Date`,  and vice versa
+Exercise5Test.java
+LocalDateTime to java.sql.Timestamp, LocalDate to java.sql.Date, and vice versa

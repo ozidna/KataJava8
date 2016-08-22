@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2cafac7-c70d-4f25-b503-f6a49c97c271" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collection-interfaces/src/test/java/collection/interfaces/Exercise1Test.java" afterPath="$PROJECT_DIR$/collection-interfaces/src/test/java/collection/interfaces/Exercise1Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collection-interfaces/src/test/java/collection/interfaces/Exercise2Test.java" afterPath="$PROJECT_DIR$/collection-interfaces/src/test/java/collection/interfaces/Exercise2Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream-api/src/test/java/stream/api/Exercise1Test.java" afterPath="$PROJECT_DIR$/stream-api/src/test/java/stream/api/Exercise1Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream-api/src/test/java/stream/api/Exercise2Test.java" afterPath="$PROJECT_DIR$/stream-api/src/test/java/stream/api/Exercise2Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream-api/target/test-classes/stream/api/Exercise7Test.class" afterPath="$PROJECT_DIR$/stream-api/target/test-classes/stream/api/Exercise7Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream-api/target/test-classes/stream/api/Exercise8Test.class" afterPath="$PROJECT_DIR$/stream-api/target/test-classes/stream/api/Exercise8Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collection-interfaces/.idea/workspace.xml" afterPath="$PROJECT_DIR$/collection-interfaces/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-test-tool/.idea/workspace.xml" afterPath="$PROJECT_DIR$/common-test-tool/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream-api/.idea/workspace.xml" afterPath="$PROJECT_DIR$/stream-api/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream-api/src/test/java/stream/api/Exercise7Test.java" afterPath="$PROJECT_DIR$/stream-api/src/test/java/stream/api/Exercise7Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream-api/src/test/java/stream/api/Exercise8Test.java" afterPath="$PROJECT_DIR$/stream-api/src/test/java/stream/api/Exercise8Test.java" />
     </list>
     <ignored path="java8-code-kata.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +61,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-1359" />
-    <option name="width" value="2412" />
-    <option name="height" value="1318" />
+    <option name="width" value="1932" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -83,9 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -106,12 +109,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/collection-interfaces" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -213,14 +219,15 @@
       <updated>1471423343588</updated>
       <workItem from="1471423347020" duration="95000" />
       <workItem from="1471874408871" duration="66000" />
+      <workItem from="1471898021959" duration="1985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161000" />
+    <option name="totallyTimeSpent" value="2146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-1359" width="2412" height="1318" extended-state="0" />
+    <frame x="-9" y="-1359" width="1932" height="1092" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -233,7 +240,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24978614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -257,6 +264,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/collection-interfaces/src/test/java/collection/interfaces/Exercise1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/collection-interfaces/src/test/java/collection/interfaces/Exercise1Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
